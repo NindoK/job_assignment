@@ -1,0 +1,59 @@
+.submitButton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #084020;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.greyOut {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  text-align: left;
+}
+
+.inputBox {
+  width: 100%;
+  padding-left: 10px;
+  text-align: start;
+  font-size: 14px;
+  border: 1px solid #111;
+  border-radius: 10px;
+  font-weight: normal !important;
+  letter-spacing: 1px;
+  border: 2px solid #dfdfdf;
+  height: 40px;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.error {
+  color: red;
+  font-size: 16;
+  font-weight: bold;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .submitButton {
+    margin-bottom: 30px;
+  }
+}

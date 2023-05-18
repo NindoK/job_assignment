@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.14",
+    "eth-sig-util": "^3.0.1",
+    "ethers": "5.7.0",
+    "magic-sdk": "^16.2.0",
+    "moralis-v1": "^1.12.0",
+    "next": "13.3.0",
+    "postcss": "8.4.21",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-moralis": "^1.4.0",
+    "tailwindcss": "3.3.1",
+    "web3uikit": "^1.0.4"
+  }
+}
